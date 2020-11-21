@@ -1,0 +1,18 @@
+{
+  "name": "page-transition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dev Laksh",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.29.0"
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "hig": "0.0.47"
+  }
+}

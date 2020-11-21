@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.scss">
+    <title>Home</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="navList">
+            <li><a class="navItem" href="./index.html">Home</a></li>
+            <li><a class="navItem" href="./about.html">About</a></li>
+            <li><a class="navItem" href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main data-router-wrapper>
+        <section data-router-view="home" class="home">
+            <div class="homeContent">
+                <div class="homePresentation">
+                    <h1>Seamsless Transition</h1>
+                    <p>Beautiful transtitions between html pages.</p>
+                </div>
+                <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_Ecu7A1.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                </lottie-player>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
